@@ -1,0 +1,1056 @@
+html {
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+  
+  *{
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+  } 
+  
+  body{
+      background-color: #ffffff;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  a{
+      text-decoration:none;
+      color: #2247AF;
+  }
+  
+  header{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+      padding-bottom: 25px;
+      z-index: 3;
+  }
+  
+  nav{
+      width: 75%;
+      border-radius: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;	
+      padding: 20px;
+      font-size: 20px;
+      font-weight: 400px;
+      line-height: 120.00000476837158%;
+      font-stretch: normal;
+  }
+  
+  .logInButton{
+    background: linear-gradient(92.19deg, #2247AF -4.5%, #458DFC 100%);
+    box-shadow: 0px 10px 30px rgba(44, 111, 245, 0.2);
+    border-radius: 24px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    border:none;
+    outline: none;
+    width: 166px;
+    height: 74px;
+    position: absolute;
+    right: 3%;
+    top: 3%;  
+  }
+
+  .logo{
+    position: absolute;
+    top: 43px;
+    left: 4%;
+}
+
+.unionLeftFirstSectionOurTeam{
+    position: absolute;
+    left: 0%;
+    width: 20%;
+    top: 15%;
+    z-index: -10;
+}
+
+.unionRightFirstSectionOurTeam{
+    position: absolute;
+    right: 0%;
+    top: 12%;
+    z-index: -9;
+    width: 20%;
+}
+
+.firstSectionOurTeam{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstSectionOurTeam h1{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2247AF;
+    margin-top: 20px;
+}
+
+.ivan{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+    align-items: flex-end;
+}
+
+.ivanOurTeam{
+    height: 80%;
+}
+
+.ivanMainContent{
+    width: 72%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.ivanText{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.linksIvan{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin-right: 8%;
+}
+
+.linksIvan p{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.5523px;
+    line-height: 130%;
+    text-align: center;
+    background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding-bottom: 15%;
+   
+}
+
+.linksIvan img{
+    width: 100%;
+}
+
+.ivanText h1{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 54px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #060405;
+    padding-bottom: 1%;
+    margin-right: 5%;
+    
+}
+
+
+.ivanMainContent h3{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24.6312px;
+    line-height: 130%;
+    background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.ivanMainContent h2{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30.7891px;
+    line-height: 38px;
+    color: #2247AF;
+
+}
+
+.vectorFirstSectionOurTeam{
+    position: absolute;
+    right: 0%;
+    z-index: -10;
+    top: 10%;
+}
+
+.andriy{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.andriyOurTeam{
+    height: 100%;
+}
+
+.andriyMainContent{
+    width: 72%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.andriyText{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.linksAndriy{
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin-right: 8%;
+}
+
+.linksAndriy p{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.5523px;
+    line-height: 130%;
+    text-align: center;
+    background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding-bottom: 15%;
+    margin-left: 5%;
+    width: 100%;
+}
+
+.linksAndriy img{
+    width: 100%;
+    
+}
+
+.andriyRole{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.andriyText h1{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 54px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #060405;
+    padding-bottom: 1%;
+    margin-right: 5%;
+    width: 100%;
+}
+
+.andriyText h3{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24.6312px;
+    line-height: 130%;
+    text-align: right;
+    background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+}
+
+.andriyMainContent h2{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30.7891px;
+    line-height: 38px;
+    color: #2247AF;
+    margin-top: 10%;
+
+}
+
+.bogdan{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+    align-items: flex-end;
+}
+
+.bogdanOurTeam{
+    height: 80%;
+}
+
+.bogdanMainContent{
+    width: 72%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.bogdanText{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.linksBogdan{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin-right: 8%;
+}
+
+.linksBogdan p{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.5523px;
+    line-height: 130%;
+    text-align: center;
+    background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding-bottom: 15%;
+   
+}
+
+.linksBogdan img{
+    width: 100%;
+}
+
+.bogdanRole{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.bogdanText h1{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 54px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #060405;
+    padding-bottom: 1%;
+    margin-right: 5%;
+    width: 100%;
+}
+
+
+.bogdanText h3{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24.6312px;
+    line-height: 130%;
+    text-align: left;
+    background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.bogdanMainContent h2{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30.7891px;
+    line-height: 38px;
+    color: #2247AF;
+    margin-top: 10%;
+}
+
+.vika{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.vikaOurTeam{
+    height: 100%;
+}
+
+.vikaMainContent{
+    width: 72%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.vikaText{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.linksVika{
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin-right: 8%;
+}
+
+.linksVika p{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.5523px;
+    line-height: 130%;
+    text-align: center;
+    background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding-bottom: 15%;
+    margin-left: 5%;
+    width: 100%;
+}
+
+.linksVika img{
+    width: 100%;
+    
+}
+
+.vikaRole{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.vikaText h1{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43.1047px;
+    line-height: 53px;
+    text-align: right;
+    margin-right: 5%;
+    text-transform: capitalize;
+    color: #060405;
+    
+    
+}
+
+.vikaText h3{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24.6312px;
+    line-height: 130%;
+    text-align: right;
+    background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+}
+
+.vikaMainContent h2{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30.7891px;
+    line-height: 38px;
+    color: #2247AF;
+    margin-top: 10%;
+
+}
+
+.denis{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+    align-items: flex-end;
+}
+
+.denisOurTeam{
+    height: 80%;
+}
+
+.denisMainContent{
+    width: 72%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.denisText{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.linksDenis{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin-right: 8%;
+}
+
+.linksDenis p{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.5523px;
+    line-height: 130%;
+    text-align: center;
+    background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding-bottom: 15%;
+   
+}
+
+.linksDenis img{
+    width: 100%;
+}
+
+.denisRole{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.denisText h1{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 54px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #060405;
+    padding-bottom: 1%;
+    margin-right: 5%;
+    width: 100%;
+}
+
+
+.denisText h3{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24.6312px;
+    line-height: 130%;
+    text-align: left;
+    background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.denisMainContent h2{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30.7891px;
+    line-height: 38px;
+    color: #2247AF;
+    margin-top: 10%;
+}
+
+
+.maria{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.mariaOurTeam{
+    height: 100%;
+}
+
+.mariaMainContent{
+    width: 72%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.mariaText{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.linksMaria{
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin-right: 8%;
+}
+
+.linksMaria p{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.5523px;
+    line-height: 130%;
+    text-align: center;
+    background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding-bottom: 15%;
+    margin-left: 5%;
+    width: 100%;
+}
+
+.linksMaria img{
+    width: 100%;
+    
+}
+
+.mariaRole{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.mariaText h1{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43.1047px;
+    line-height: 53px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #060405;
+    margin-right: 5%;
+}
+
+.mariaText h3{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24.6312px;
+    line-height: 130%;
+    text-align: right;
+    background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+}
+
+.mariaMainContent h2{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30.7891px;
+    line-height: 38px;
+    color: #2247AF;
+    margin-top: 10%;
+
+}
+
+.danylo{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+    align-items: flex-end;
+    margin-bottom: 10%;
+}
+
+.danyloOurTeam{
+    height: 80%;
+}
+
+.danyloMainContent{
+    width: 72%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.danyloText{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.linksDanylo{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin-right: 8%;
+}
+
+.linksDanylo p{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.5523px;
+    line-height: 130%;
+    text-align: center;
+    background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding-bottom: 15%;
+   
+}
+
+.linksDanylo img{
+    width: 100%;
+}
+
+.danyloRole{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.danyloText h1{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 54px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #060405;
+    padding-bottom: 1%;
+    margin-right: 5%;
+    width: 100%;
+}
+
+
+.danyloText h3{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24.6312px;
+    line-height: 130%;
+    text-align: left;
+    background: linear-gradient(260.14deg, #3762A6 10.72%, #295ABF 49.17%, #2247AF 89.04%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.danyloMainContent h2{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30.7891px;
+    line-height: 38px;
+    color: #2247AF;
+    margin-top: 10%;
+}
+
+@media (max-width:1450px){
+
+    .ivanMainContent h2,.bogdanMainContent h2,.andriyMainContent h2,.vikaMainContent h2,.denisMainContent h2,.mariaMainContent h2,.danyloMainContent h2{
+        font-size: 25px;
+    }
+
+    .ivanMainContent,.bogdanMainContent,.andriyMainContent,.vikaMainContent,.denisMainContent,.mariaMainContent,.danyloMainContent{
+        width: 70%;
+    }
+}
+
+@media (max-width:1350px){
+
+    .logInButton{
+        font-size: 18px;
+        width: 140px;
+        height: 65px;
+        right: 1%;
+    }
+
+    .ivanMainContent h2,.bogdanMainContent h2,.andriyMainContent h2,.vikaMainContent h2,.denisMainContent h2,.mariaMainContent h2,.danyloMainContent h2{
+        font-size: 22px;
+    }
+
+    .ivanMainContent,.bogdanMainContent,.andriyMainContent,.vikaMainContent,.denisMainContent,.mariaMainContent,.danyloMainContent{
+        width: 68%;
+    }
+
+    .ivanText h1,.andriyText h1,.bogdanText h1,.vikaText h1,.denisText h1,.mariaText h1,.danyloText h1{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:1250px){
+
+    .firstSectionOurTeam h1{
+        font-size: 40px;
+    }
+
+    .ivanMainContent h2,.bogdanMainContent h2,.andriyMainContent h2,.vikaMainContent h2,.denisMainContent h2,.mariaMainContent h2,.danyloMainContent h2{
+        font-size: 20px;
+    }
+
+    .vikaText h1,.denisText h1{
+        width: 100%;
+        /* font-size: 35px; */
+    }
+
+    .ivanOurTeam,.andriyOurTeam,.bogdanOurTeam,.vikaOurTeam,.denisOurTeam,.mariaOurTeam,.danyloOurTeam{
+        width: 25%;
+    }
+}
+
+
+@media (max-width:1180px){
+
+    nav{
+        font-size: 18px;
+    }
+
+    .logo{
+        left: 2%;
+    }
+
+    .logInButton{
+        font-size: 15px;
+        width: 120px;
+        height: 60px;
+    }
+
+    
+    .ivanMainContent h2,.bogdanMainContent h2,.andriyMainContent h2,.vikaMainContent h2,.denisMainContent h2,.mariaMainContent h2,.danyloMainContent h2{
+        font-size: 18px;
+    }
+
+    .ivanMainContent,.bogdanMainContent,.andriyMainContent,.vikaMainContent,.denisMainContent,.mariaMainContent,.danyloMainContent{
+        width: 68%;
+    }
+
+    .ivanText h1,.andriyText h1,.bogdanText h1,.vikaText h1,.denisText h1,.mariaText h1,.danyloText h1{
+        font-size: 32px;
+    }
+
+    .ivanMainContent h3,.andriyText h3,.bogdanText h3,.vikaText h3,.denisText h3,.mariaText h3,.danyloText h3{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1050px){
+
+    
+    .ivanMainContent h2,.bogdanMainContent h2,.andriyMainContent h2,.vikaMainContent h2,.denisMainContent h2,.mariaMainContent h2,.danyloMainContent h2{
+        font-size: 15px;
+    }
+
+    .ivanMainContent,.bogdanMainContent,.andriyMainContent,.vikaMainContent,.denisMainContent,.mariaMainContent,.danyloMainContent{
+        width: 68%;
+    }
+
+    .ivanText h1,.andriyText h1,.bogdanText h1,.vikaText h1,.denisText h1,.mariaText h1,.danyloText h1{
+        font-size: 25px;
+    }
+}
+
+@media (min-width:1700px){
+
+    .firstSectionOurTeam h1{
+        font-size: 60px;
+        margin-top: 50px;
+    }
+
+    nav{
+        font-size: 25px;
+    }
+    
+    .ivanMainContent h2,.bogdanMainContent h2,.andriyMainContent h2,.vikaMainContent h2,.denisMainContent h2,.mariaMainContent h2,.danyloMainContent h2{
+        font-size: 32px;
+    }
+
+    .linksIvan p,.linksAndriy p,.linksBogdan p,.linksVika p,.linksDenis p,.linksMaria p,.linksDanylo p{
+        font-size: 30px;
+    }
+
+    .ivanText h1,.andriyText h1,.bogdanText h1,.vikaText h1,.denisText h1,.mariaText h1,.danyloText h1{
+        font-size: 50px;
+    }
+
+    .ivanOurTeam,.andriyOurTeam,.bogdanOurTeam,.vikaOurTeam,.denisOurTeam,.mariaOurTeam,.danyloOurTeam{
+        width: 25%;
+    }
+}
+
+@media (min-width:1900px){
+
+    .firstSectionOurTeam h1{
+        font-size: 75px;
+        margin-top: 50px;
+    }
+
+
+    nav{
+        font-size: 30px;
+    }
+
+    .ivanText h1{
+        margin-bottom: 2%;
+    }
+    
+    .ivanMainContent h2,.bogdanMainContent h2,.andriyMainContent h2,.vikaMainContent h2,.denisMainContent h2,.mariaMainContent h2,.danyloMainContent h2{
+        font-size: 35px;
+    }
+
+    .linksIvan p,.linksAndriy p,.linksBogdan p,.linksVika p,.linksDenis p,.linksMaria p,.linksDanylo p{
+        font-size: 40px;
+    }
+
+    .ivanText h1,.andriyText h1,.bogdanText h1,.vikaText h1,.denisText h1,.mariaText h1,.danyloText h1{
+        font-size: 60px;
+    }
+
+    .ivanMainContent h3,.andriyText h3,.bogdanText h3,.vikaText h3,.denisText h3,.mariaText h3,.danyloText h3{
+        font-size: 35px;
+    }
+}
+
+
+@media (min-width:2000px){
+
+
+    .ivanMainContent h2,.bogdanMainContent h2,.andriyMainContent h2,.vikaMainContent h2,.denisMainContent h2,.mariaMainContent h2,.danyloMainContent h2{
+        font-size: 40px;
+    }
+
+    .linksIvan p,.linksAndriy p,.linksBogdan p,.linksVika p,.linksDenis p,.linksMaria p,.linksDanylo p{
+        font-size: 40px;
+    }
+
+    .ivanText h1,.andriyText h1,.bogdanText h1,.vikaText h1,.denisText h1,.mariaText h1,.danyloText h1{
+        font-size: 65px;
+    }
+
+    .ivanMainContent h3,.andriyText h3,.bogdanText h3,.vikaText h3,.denisText h3,.mariaText h3,.danyloText h3{
+        font-size: 35px;
+    }
+}
